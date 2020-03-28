@@ -15,12 +15,13 @@ const object = {
       return false;
     } 
     else {
-      if (isNaN(param))
+      if (isNaN(param)) {
       this.NaNyStrings.push(param);
-      else
+      } else {
       this.numberyStrings.push(param);
       return true;
-    }  
+      }
+    }
     
   },
   allStrings: function () {
